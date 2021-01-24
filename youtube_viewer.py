@@ -129,8 +129,8 @@ def viewVideo(position):
             'User-Agent': '{}'.format(ua.random),
         }
         proxyDict = {
-            "http": "http://"+PROXY,
-            "https": "https://"+PROXY,
+            "http": "socks5://"+PROXY,
+            "https": "socks5://"+PROXY,
             "ftp": "ftp://"+PROXY,
         }
 
