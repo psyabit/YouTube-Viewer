@@ -23,13 +23,13 @@
                             YP    88 888888    YP  YP    888888 88  Yb
 
 # YouTube Viewer
-Simple program to increase YouTube views written in Python.
+Simple program to increase YouTube views written in Python. Just for Socks5 Proxies.
 
 **Discalimer:** This has been developed for educational purposes only.
 # Requirements
  * Python 3.x
  * High speed Internet Connection
- * Good proxy list
+ * Good socks proxy list
 
 # Windows
 * ## Installation 
@@ -41,6 +41,8 @@ Simple program to increase YouTube views written in Python.
   $ cd YouTube-Viewer
 
   $ pip install -r requirements.txt
+  
+  $ pip install PySocks
   ```
 * ## Important
    * You need to have Google Chrome installed on your device.
@@ -76,6 +78,8 @@ Simple program to increase YouTube views written in Python.
   $ cd YouTube-Viewer
 
   $ pip3 install -r requirements.txt
+  
+  $ pip3 install PySocks
   ```
 * ## Important
    * You need to have Google Chrome installed on your device.
